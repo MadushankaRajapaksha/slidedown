@@ -1,3 +1,0 @@
-# New Slide
-
-Your content here...
