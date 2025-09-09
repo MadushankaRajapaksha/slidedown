@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "slidedown"
+name = "slidedown-cli"
 version = "0.1.0"
 description = "A terminal-based presentation application"
 readme = "README.md"
@@ -34,7 +34,7 @@ Repository = "https://github.com/MadushankaRajapaksha/slidedown"
 Issues = "https://github.com/MadushankaRajapaksha/slidedown/issues"
 
 [project.scripts]
-slidedown = "slidedown.cli:main"
+slidedown-cli = "slidedown.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
